@@ -1,0 +1,107 @@
+@charset "UTF-8";
+.hidden {
+  display: none; }
+
+.no-margin {
+  margin: 0; }
+
+nav {
+  background-color: #333;
+  padding: 0 10px;
+  height: 70px; }
+
+.react-datepicker-wrapper {
+  width: 100%; }
+
+.react-datepicker__input-container {
+  width: 100%; }
+
+.tags-input__tag {
+  font-size: 85%;
+  padding: 0.5em 0.75em;
+  margin: 0.25em 0.1em;
+  display: inline-block;
+  background-color: #ddd;
+  transition: all 0.1s linear;
+  cursor: pointer; }
+
+.tags-input__tag:hover {
+  background-color: #3af;
+  color: white; }
+
+.tags-input__tag--close::after {
+  content: "×";
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  transform: scale(1.4);
+  margin-left: 0.75em; }
+
+.tags-input__tag--close:hover::after {
+  color: red; }
+
+.tags-input__input {
+  border: 0;
+  outline: 0;
+  padding: 0.5em 0.1em; }
+
+.product-item__date {
+  font-size: 10px;
+  display: inline-block; }
+
+.product-create__button {
+  z-index: 0; }
+
+.search-wrapper {
+  position: relative; }
+  .search-wrapper__input {
+    border-bottom: 1px solid white !important; }
+  .search-wrapper__result-list {
+    position: absolute;
+    top: 63px;
+    left: 0;
+    display: block;
+    width: 377px;
+    z-index: 1;
+    background-color: #ff8934;
+    border-top: solid 4px #000;
+    border-bottom: solid 4px #000;
+    color: black; }
+    .search-wrapper__result-list--item {
+      background-color: transparent !important; }
+
+.result-list__item {
+  width: 100%; }
+  .result-list__item--name--link {
+    color: black;
+    transition: none;
+    padding: 0; }
+    .result-list__item--name--link:hover {
+      background: none;
+      color: white; }
+  .result-list__item--tags li {
+    margin-right: 4px; }
+
+body {
+  font-family: "Exo 2", sans-serif; }
+
+a {
+  cursor: pointer;
+  color: #fc510b; }
+
+input:focus {
+  border-bottom: 1px solid #fc510b !important;
+  -webkit-box-shadow: 0 1px 0 0 #fc510b !important;
+  box-shadow: 0 1px 0 0 #fc510b !important; }
+
+.active {
+  color: #fc510b !important; }
+
+.floatRight {
+  float: right; }
+
+.hidden {
+  display: none; }
+
+strong {
+  font-weight: bold; }
