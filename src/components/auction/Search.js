@@ -79,7 +79,7 @@ class Search extends React.Component {
         return (
             <div className="search-wrapper">
                 <i className="material-icons prefix">search</i>
-                <input type="text" placeholder="Hvad søger du?" id="search" className="search-wrapper__input" value={this.state.search} onChange={this.updateSearch.bind(this)} />
+                <input type="text" placeholder="Hvad søger du?" id="search" className="search-wrapper__input" value={this.state.search} onChange={this.updateSearch.bind(this)} autoComplete="off" />
                 {/* <div className="search-wrapper__filtered-product-counter hidden">{filteredProductsCounter} produkter fundet</div> */}
                 <ul id="search-result-list" className="collection search-wrapper__result-list hidden">
                     {filteredProductList}
